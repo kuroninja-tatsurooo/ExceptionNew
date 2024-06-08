@@ -24,7 +24,7 @@
 ## 出力結果
 1. の出力画面
 ![exceptionnew1](https://github.com/kuroninja-tatsurooo/exceptionnew/assets/157494201/d76b07ea-0c0a-4cac-98a6-78b7001e249e)
-![exceptionnew2](https://github.com/kuroninja-tatsurooo/exceptionnew/assets/157494201/42cc0b35-b2a6-431d-b6c1-a889e02d9322)
+![image](https://github.com/kuroninja-tatsurooo/exceptionnew/assets/157494201/a6d7f1ec-be87-4765-9f17-9942c3c7fc9e)
 2-3. の出力画面
 ![exceptionnew3-1](https://github.com/kuroninja-tatsurooo/exceptionnew/assets/157494201/3a4c6161-d81c-4de6-b8ce-ba6d64dcf86e)
 ![exceptionnew3-2](https://github.com/kuroninja-tatsurooo/exceptionnew/assets/157494201/f74377b9-35b3-4baa-86a2-a18fefcdc6e6)
