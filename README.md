@@ -15,3 +15,17 @@
 
 ### 一言メモ
 1の出力画面で「Are you ready？」が2回繰り返して出力されたことについて、1回目の実行で文字化けエラー、2回目実行で出力結果表示となったため、プログラム内は2回実行していることになるため2回繰り返して出力されたと思われる。
+
+
+## 修正
+- 15行目のthrows IOExceptionを削除
+- 27行目、28行目の変数名exceptione→exceptionに修正
+
+## 出力結果
+1. の出力画面
+![image](C:\Users\tatsuro\OneDrive\Pictures\スクリーンショット\exceptionnew1)
+![image](C:\Users\tatsuro\OneDrive\Pictures\スクリーンショット\exceptionnew2)
+2-3. の出力画面
+![image](C:\Users\tatsuro\OneDrive\Pictures\スクリーンショット\exceptionnew3-1)
+![image](C:\Users\tatsuro\OneDrive\Pictures\スクリーンショット\exceptionnew3-2)
+

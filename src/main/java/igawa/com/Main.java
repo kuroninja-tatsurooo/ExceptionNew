@@ -12,10 +12,10 @@ public class Main {
   // 入出力を実際に実装して、作ったファイルに文章を追加する。
   // その作ったファイルを削除してもう一度実行すると例外になるので、その例外をキャッチして例外処理を行う。
   // catchした中で更にファイルに書き込もうとして例外になった場合、どうなるのかを確認してください。
-  public static void main(String[] args) throws IOException {  //検査例外 ←入出力例外
+  public static void main(String[] args)  {
     try {
       Path path = Path.of("JavaCourse.txt");
-      Files.writeString(path, "Java study",StandardOpenOption.APPEND); //ここが動くとファイルができる 入出力処理は例外と隣り合わせ
+      Files.writeString(path, "Yes,of course",StandardOpenOption.APPEND); //ここが動くとファイルができる 入出力処理は例外と隣り合わせ
       System.out.println(Files.readString(path));
     } catch (IOException e) {
       e.printStackTrace(); //例外の内容をコンソール画面に表示する
@@ -24,8 +24,8 @@ public class Main {
         Path path2 = Path.of("Exception.txt");
         Files.writeString(path2,"anything write",StandardOpenOption.APPEND);
         System.out.println(Files.readString(path2));
-      }catch (IOException exceptione){
-        exceptione.printStackTrace();
+      }catch (IOException exception){
+        exception.printStackTrace();
         System.out.println("null file");
       }
     }
